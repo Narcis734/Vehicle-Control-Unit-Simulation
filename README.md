@@ -1,8 +1,7 @@
-# Vehicle Control Unit (VCU) Logic Simulation
+# Vehicle-Control-Unit-Simulation
 
-A portable C99 simulation of a small vehicle control unit. It separates simulated
-inputs, pedal-signal middleware, and the application state machine so the logic
-can be tested without vehicle hardware.
+Embedded C simulation of a Vehicle Control Unit (VCU) with dual-channel pedal
+validation, torque control, fault handling, and Unity unit tests.
 
 ## Behavior
 
